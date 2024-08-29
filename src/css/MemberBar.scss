@@ -1,0 +1,26 @@
+.info_bar{
+    display: flex;
+    padding: 15px 55px;
+    justify-content: space-between;
+    align-items: center;
+    background: #E6ECF0;
+    &>div:first-child{
+        display: flex;
+        align-items: center;
+        column-gap: 16px;
+        &>p{
+            color: #000;
+            font-weight: 700;
+        }
+        &>span{
+            border-radius: 5px;
+            background: #0013FE;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #FFF;
+            font-weight: 500;
+            padding: 4px 12px;
+        }
+    }
+}

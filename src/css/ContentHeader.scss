@@ -1,0 +1,16 @@
+.content_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+    &>input{
+        
+    }
+    #input-with-icon-textfield .MuiInput-underline:before {
+        border-bottom: none;
+      }
+      
+      #input-with-icon-textfield {
+        background-color: red;
+      }
+}
